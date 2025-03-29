@@ -5,7 +5,7 @@ part 'company_listing.freezed.dart';
 part 'company_listing.g.dart';
 
 @freezed
-class CompanyListing with _$CompanyListing {
+abstract class CompanyListing with _$CompanyListing {
   const factory CompanyListing({
     required String symbol,
     required String name,

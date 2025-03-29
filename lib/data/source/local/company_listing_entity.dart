@@ -1,7 +1,9 @@
 import 'package:hive/hive.dart';
 
+part 'company_listing_entity.g.dart';
+
 @HiveType(typeId: 0)
-class CompanyListingEntity {
+class CompanyListingEntity extends HiveObject{
   @HiveField(0)
   String symbol;
 
